@@ -1,0 +1,50 @@
+#class{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 50%;
+    animation-name: traffic;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes traffic {
+    0%{background-color: red;}
+    100%{background-color: rgb(8, 8, 8);}
+    
+    
+}
+#class1{
+    
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 50%;
+    animation-name: traffic1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes traffic1 {
+    0%{background-color: orange;}
+    100%{background-color: rgb(8, 8, 8);}
+    
+}
+#class2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 50%;
+    animation-name: traffic2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes traffic2 {
+    0%{background-color:green;}
+    100%{background-color: rgb(8, 8, 8);}
+    
+}
